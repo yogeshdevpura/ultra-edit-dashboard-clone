@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+
+li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.logo img {
+    height: 55px;
+    align-content: center;
+    margin: 20px 0;
+
+}
+
+.yo li span {
+    padding: 0px 10px;
+}
+
+.language {
+    cursor: pointer;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+.first {
+    padding: 33px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.para {
+    font-family: sans-serif;
+    text-align: center;
+    width: 53vw;
+
+    font-size: 20px;
+    padding: 30px;
+}
+
+.downloadbutton {
+    background-color: rgb(64, 179, 214);
+    border: none;
+    padding: 11px 7px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: small;
+    color: white;
+    text-transform: uppercase;
+}
+
+.line {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+.small {
+    font-size: 15px;
+
+}
+
+.english .lang {
+    font-family: sans-serif;
+    padding: 10px 5px 5px 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.english {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+    height: 25vh;
+    animation-name: YogeshKaAnimation;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.01, -0.04, 0.42, 1.01);
+    animation-iteration-count: 1;
+}
+
+@keyframes YogeshKaAnimation {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {}
+}
+
+.btn {
+    border: none;
+    background-color: limegreen;
+    padding: 9px;
+    margin: 35px 6px 6px 6px;
+    border-radius: 4px;
+    margin-top: auto;
+    margin-bottom: 35px;
+    animation-name: btnanimation;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.01, -0.04, 0.42, 1.01);
+    animation-iteration-count: 1;
+}
+
+@keyframes btnanimation {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {}
+}
+
+.bttn {
+    animation-name: bttnAnimation;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.01, -0.04, 0.42, 1.01);
+    animation-iteration-count: 1;
+}
+
+@keyframes bttnAnimation {
+    from {
+        transform: translateX(-1000px);
+    }
+
+    to {}
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    margin: auto;
+    width: 65vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+
+.reference {
+    font-size: small;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.third {
+    background-color: rgb(23, 22, 22);
+    width: 100%;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "block1 block2"
+        "block block";
+    gap: 22px;
+
+}
+
+.firstcolumn {
+    color: white;
+
+
+}
+
+.headingfirst {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.headingpara {
+    display: flex;
+    justify-content: center;
+    margin: 10px 64px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.secondcolumn {
+    background-color: white;
+    width: 300px;
+    height: 240px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.headingsecond {
+    color: rgb(72, 181, 228);
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 300;
+
+}
+
+.form {
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: px;
+}
+
+#email {
+    height: 50px;
+    width: 250px;
+}
+
+.signup {
+    margin: auto;
+    border: none;
+    padding: 11px 90px 11px 90px;
+    background-color: deepskyblue;
+    font-family: revert-layer;
+    color: white;
+    font-size: small;
+    font-weight: 900;
+    border-radius: 3px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    
+}
